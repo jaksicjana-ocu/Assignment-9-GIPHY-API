@@ -1,1 +1,50 @@
-/* Add any custom CSS stylings you want here */
+//* Body styling */
+body {
+    background-color: #121212;  /* Dark background */
+    color: #ffffff;             /* White text for contrast */
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+h1 {
+    color: #ff9800;             /* Orange header */
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* Input field */
+#search-input {
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+/* Button styling */
+#fetch-gif-btn {
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 1rem;
+    background-color: #ff9800;
+    border: none;
+    transition: transform 0.2s;
+}
+
+#fetch-gif-btn:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* GIF container */
+#gif-container {
+    margin-top: 20px;
+}
+
+/* Each GIF */
+#gif-container img {
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    transition: transform 0.2s;
+}
+
+#gif-container img:hover {
+    transform: scale(1.05);
+}* Add any custom CSS stylings you want here */
